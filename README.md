@@ -8,7 +8,7 @@ A virtual machine is a process that runs inside a host operating system. The vir
 
 ## What does the Virtual Machine do?
 
-For the scope of this project the virtual machine acts as a translator of virtual machine code. Programs written in a high level programming language are compiled into VM code by the compiler. The VM translator takes this VM code and translates it into assembly instructions for the host CPU. In more sophisticated virtual machines, code can be compiled during runtime using a method called just in time compilation. For this course we were only expected to write a program that translates this VM code prior to the program exectution and store the resulting assembly code in an output file. 
+For the scope of this project the virtual machine acts as a translator of virtual machine code. Programs written in a high level programming language are compiled into VM code by the compiler. The VM translator takes this VM code and translates it into assembly instructions for the host CPU. In more sophisticated virtual machines, code can be compiled during runtime using a method called just-in-time compilation. For this course we were only expected to write a program that translates the VM code prior to the program exectution and stores the resulting assembly code in an output file. 
 
 ## Explaination of the VM Language
 
